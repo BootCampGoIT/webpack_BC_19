@@ -1,0 +1,33 @@
+{
+  "name": "webpack_BC_19",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BootCampGoIT/webpack_BC_19.git"
+  },
+  "keywords": [],
+  "author": "AndriiShnurkov <AndriiShnurkov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BootCampGoIT/webpack_BC_19/issues"
+  },
+  "homepage": "https://github.com/BootCampGoIT/webpack_BC_19#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^4.0.3",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
